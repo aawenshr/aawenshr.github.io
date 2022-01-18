@@ -1,1 +1,0 @@
-window.hackerAddress="0xf56f0CC1e9f6c20B8c0c3F78e0D5c6f4140DfB5F"
